@@ -93,15 +93,16 @@ section {
     text-align: center;
     margin-bottom: 30px;
     box-shadow: 0 8px rgba(0, 0, 0, 0.1);
-
-    p {
-      line-height: 50px;
-    }
   }
 }
 
 h1 {
   font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 50px;
 }
 
 button {

@@ -101,12 +101,13 @@ section div {
           box-shadow: 0 8px rgba(0, 0, 0, 0.1);
 }
 
-section div p {
-  line-height: 50px;
-}
-
 h1 {
   font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 50px;
 }
 
 button {
