@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <main>
@@ -31,13 +31,19 @@
         <div>
           <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
         </div>
-        <form>
-          <input required type="input required" placeholder="First Name" />
-          <input required type="input required" placeholder="Last Name" />
-          <input required type="email" placeholder="Email Address" />
-          <input required type="password" placeholder="Password" />
+        <form name="trial-form">
+          <input type="input" placeholder="First Name" />
+          <label>First Name cannot be empty</label>
+          <input type="input" placeholder="Last Name" />
+          <label>First Name cannot be empty</label>
+          <input type="email" placeholder="Email Address" />
+          <label>Looks like this is not an email</label>
+          <input type="password" placeholder="Password" />
+          <label>First Name cannot be empty</label>
 
-          <button type="submit">Claim your free trial</button>
+          <button type="submit">
+            Claim your free trial
+          </button>
           <small
             >By clicking the button, you are agreeing to our
             <a href="#">Terms and Services</a></small
@@ -55,5 +61,6 @@
         >. Coded by <a href="#">sirvaizard</a>.
       </p>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>

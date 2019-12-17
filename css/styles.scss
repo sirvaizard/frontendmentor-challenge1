@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: url('./images//bg-intro-desktop.png'), $color-red;
+  background: url('../images/bg-intro-desktop.png'), $color-red;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #fff;
@@ -43,7 +43,7 @@ form {
   input {
     height: 45px;
     line-height: 45px;
-    margin-bottom: 25px;
+    margin-top: 25px;
     border-radius: 4px;
     border: 1px solid lightgray;
     padding: 0 25px;
@@ -54,6 +54,19 @@ form {
     &:focus {
       border: 2px solid $color-grayblue;
     }
+
+    &.invalid {
+      border: 2px solid $color-red;
+      color: $color-red;
+    }
+  }
+
+  label {
+    color: $color-red;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
   }
 
   small {
@@ -97,6 +110,7 @@ button {
   line-height: 45px;
   border-radius: 8px;
   border: none;
+  margin: 20px;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;

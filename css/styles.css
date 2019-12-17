@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("./images//bg-intro-desktop.png"), #ff7a7a;
+  background: url("../images/bg-intro-desktop.png"), #ff7a7a;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #fff;
@@ -48,7 +48,7 @@ form {
 form input {
   height: 45px;
   line-height: 45px;
-  margin-bottom: 25px;
+  margin-top: 25px;
   border-radius: 4px;
   border: 1px solid lightgray;
   padding: 0 25px;
@@ -59,6 +59,19 @@ form input {
 
 form input:focus {
   border: 2px solid #b9b6d3;
+}
+
+form input.invalid {
+  border: 2px solid #ff7a7a;
+  color: #ff7a7a;
+}
+
+form label {
+  color: #ff7a7a;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
 }
 
 form small {
@@ -102,6 +115,7 @@ button {
   line-height: 45px;
   border-radius: 8px;
   border: none;
+  margin: 20px;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
